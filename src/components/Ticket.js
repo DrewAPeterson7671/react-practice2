@@ -12,8 +12,8 @@ function Ticket(props) {
 }
 
 Ticket.propTypes = {
-  name: PropTypes.string,
-  location: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
   issue: PropTypes.string
 };
 
