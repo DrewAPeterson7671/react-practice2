@@ -38,7 +38,6 @@ class TicketControl extends React.Component {
   }
 
   handleEditClick = () => {
-    console.log("handle edit click reached!");
     this.setState({editing: true});
   }
 
